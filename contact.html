@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>web layout project</title>
+<!--        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header class="mainHeader">
+            <div class="logo">
+                <img src='img/justit.png'>
+            </div>
+            <div class="slogan"><h1>slogan</h1></div>
+        </header>
+        <nav class="mainNav">
+            <ul class="mainList">
+                <li>
+                    <a href='index.html'>Home</a>
+                </li>
+                <li>
+                    <a href='about.html'>About</a>
+                </li>
+                <li>
+                    <a href='info.html'>Info</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href='option1.html'>Option1</a>
+                        </li>
+                        <li>
+                            <a href='option2.html'>Option2</a>
+                        </li>
+                        <li>
+                            <a href='option3.html'>Option3</a>
+                        </li>
+                        <li>
+                            <a href='option4.html'>Option4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href='contact.html'>Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="mainContent">
+            <article class="mainArticle">
+                <p>Find us</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.0534373522873!2d-0.07733968459407249!3d51.51223561817115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb3a2991b2b%3A0x7db0f0cc1b2512e5!2sJust%20IT!5e0!3m2!1sen!2suk!4v1599741006456!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </article>
+            <aside class="sideContent">
+                <p>aside</p>
+                <form>
+                    <h3>Name:</h3>
+                    <input class="inputStyle" type="text" placeholder="enter name" autofocus required>
+                    <h3>Email:</h3>
+                    <input class="inputStyle" type="email" placeholder="enter email" required>
+                    <h3>Select the color of your eyes</h3>
+                    <label for="brown">brown</label>
+                    <input id="brown" type="radio" value="brown">
+                    <label for="blue">blue</label>
+                    <input id="blue" type="radio" value="blue">
+                    <label for="green">green</label>
+                    <input id="green" type="radio" value="green">
+                    <input type="submit">
+                </form>
+            </aside>
+        </section>
+        <footer class="mainFooter">
+            <small>
+                <time id="year">2020</time>
+                <a href="index.html" >companyName</a>
+            </small>
+        </footer>
+
+
+    </body>
+</html>
